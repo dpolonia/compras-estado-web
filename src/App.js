@@ -5,7 +5,6 @@ function App() {
   const [response, setResponse] = useState("");
 
   const handleQuery = async () => {
-    // Simulação de resposta — substitui mais tarde por chamada ao Vertex AI ou BigQuery
     if (query.includes("total")) {
       setResponse("Total contratado pelo Estado entre 2020 e 2025: 129 mil milhões €");
     } else {
